@@ -15,5 +15,45 @@
     <br>
     <a href="pag003.html">Ir para a página 3</a>
 
+    <hr>
+    <h2>Teste de imagens para dispositivos diferentes</h2>
+    <p>As imegens se classificam entre P - pequena, M - média e G - grande.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <!--
+        A tag <picture> permite que você crie várias fontes (ou <sources>)
+        A tag <source> muda a imagem para compatibilizar o tamanho da imagem com a tela do dispositivo.
+    -->
+
+    <hr>
+    <h2>Testes de áudio</h2>
+    <p>Carregar áudios de diferentes formas irei.</p>
+
+    <audio src="audios/metal BREKDOWN.mp3" controls autoplay loop></audio> <!-- A tag <audio> serve para acrescentar audios na página (MP3 WAV OGG)-->
+
+    <audio preload="auto" controls>
+        <source src="audios/metal BUILD UP.mp3" type="audio/mpeg">
+        <source src="audios/metal PROGRESSIVO.mp3" type="audio/mpeg">
+    </audio> <!-- No caso de <source> dentro de <audio> o navegador carrega o primeiro arquivo, se não conseguir, ele carrega o segundo -->
+
+        <hr>
+        <h2>Testes de vídeos</h2>
+        <p>Carregar vídeos de diferentes formas</p>
+
+        <!-- <video src="media-video/20181112 182750-1.webm" width="500" controls></video> -->
+
+        <video width="500" poster="imagens/Mini má lista.png" controls>
+            <source src="media-video/20181112 182750-1.m4v" type="video/mp4">
+            <source src="media-video/20181112 182750-1.webm" type="webm">
+            <source src="media-video/20181112_182750.ogv" type="ogg">
+            <source src="media-video/20181112_182750.mp4" type="mp4">
+        </video>
+
+        <iframe width="500" height="282" src="https://www.youtube.com/embed/GSMCRD35ch4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </body>
 </html>
