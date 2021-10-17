@@ -1,11 +1,42 @@
 @charset "UTF-8";
 
-body {
-    background-color: mistyrose;
+    /* Este modo é meramente para estudos, ele não aparece nos códigos */
+
+* {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    height: auto;
+}
+
+body {
+
+    /* background-color: mistyrose; */
+    background-image: linear-gradient(to bottom, white, mistyrose, #eca8a0);
+    /* background-attachment: fixed; */
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(140, 94, 69);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
 }
 
 h1 {
-    color: lightsalmon;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    text-align: justify;
+    margin: auto;
+}
+
+pre p {
+    text-align: center;
 }
