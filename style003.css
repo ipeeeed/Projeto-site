@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Funhouse';
+    src: url('fonts/Howie_s_Funhouse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    height: auto;
+}
+
+h1 {
+    background-color: mistyrose;
+    height: 40px;
+    width: 180px;
+
+
+    border: 10px solid pink;
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: pink;
+    */
+
+    padding: 10px;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+
+    margin: auto;
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: royalblue;
+}

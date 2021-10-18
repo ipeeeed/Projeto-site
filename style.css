@@ -174,3 +174,7 @@ a::after {
     font-weight: normal;
     color: orangered;
 }
+
+.tamanho {
+    width: 135px;
+}
