@@ -15,9 +15,12 @@
     <hr> <!-- hr é para colocar uma linha horizontal -->
     <h2>RPG dos Rapazes:</h2> <!-- A tag <h2> é a segunda hierarquia dos 6 tamanhos dos títulos -->
 
-    <p>Bora jogar RPG?</p> <!-- A tag <p> é um parágrafo -->
-    <p>O sistema mais animador atualmente para jogar-mos nossos RPG's é o sistema Tormenta 20, pois é um sistema simples e super equilibrado.
-    <br> <!-- A tag <br> é o código para pular uma linha de um texto no mesmo código -->
+    <p id="principal">Bora jogar RPG?</p> <!-- A tag <p> é um parágrafo -->
+    <p>O sistema mais animador atualmente para jogar-mos nossos RPG's é o sistema <span class="basico">Tormenta 20</span>, pois é um sistema simples e super equilibrado.
+    <br> <!--
+        A tag <br> é o código para pular uma linha de um texto no mesmo código.
+        A tag <span> é um trecho para marcação.
+    -->
     Esta imagem a seguir é um dado D20, o dado principal dos rpg's de mesa mais renomados:</p>
     <img src="imagens/D20 rpg1.png" alt="D20"> <!-- A tag <img> é o comando para acrescentar imagens no site. Podemos usar tanto uma imagem salva na pasta do mesmo arquivo de index, quanto de uma pasta interna ou também de uma URL de outro servidor/endereço -->
     <hr>
@@ -61,7 +64,7 @@
     </main> <!-- A tag <main> serve para destacar um elemento como uma folha -->
 
     <pre>
-        <p>
+        <p id="dados">
     <bdo dir="rtl">D100</bdo>|D100
     <bdo dir="rtl">D020</bdo>|D020
     <bdo dir="rtl">D012</bdo>|D012
@@ -85,7 +88,7 @@
     -->
 
     <hr>
-    <h2>Lista de armas do personagem:</h2>
+    <h2 class="lista">Lista de armas do personagem:</h2>
     <ol type="1"> <!-- tipos: 1 A a I i -->
         <li>Arco</li>
         <li>Katana</li>
@@ -97,7 +100,7 @@
             A tag <li> são os itens da <ol>
     -->
 
-    <h2>Lista de lutas do personagem:</h2>
+    <h2 class="lista">Lista de lutas do personagem:</h2>
     <ul type="square"> <!-- disc circle square -->
         <li>Karatê</li>
         <li>Jiu-jitsu</li>
@@ -108,7 +111,7 @@
         <li>Iaido</li>
     </ul> <!-- A tag <ul> significa Lista Não Ordenada e serve para colocar itens em sequência -->
 
-    <h2>Lista de magias e alquimias</h2>
+    <h2 class="lista">Lista de magias e alquimias</h2>
     <ol>
         <li>Poções</li>
         <ol type="a">
@@ -127,21 +130,32 @@
         </ol>
     </ol>
 
-        <h2>Lista de Amigos do personagem:</h2>
-        <dl>
-            <dt>Pablo</dt>
-            <dd>Seu melhor amigo, vocês bebem juntos, mas ele gosta de ser realista.</dd>
-            <dt>Mônica</dt>
-            <dd>Sua namorada, ela odeia quando você sai para uma aventura sem ela.</dd>
-            <dt>Murdock</dt>
-            <dd>Seu irmão, vai onde você for, você deve cuidar dele sempre.</dd>
-        </dl> <!-- As tags <dl>, <dt> e <dd> são tags de listas de definição -->
+    <h2 class="lista">Lista de Amigos do personagem:</h2>
+    <dl>
+        <dt>Pablo</dt>
+        <dd>Seu melhor amigo, vocês bebem juntos, mas ele gosta de ser realista.</dd>
+        <dt>Mônica</dt>
+        <dd>Sua namorada, ela odeia quando você sai para uma aventura sem ela.</dd>
+        <dt>Murdock</dt>
+        <dd>Seu irmão, vai onde você for, você deve cuidar dele sempre.</dd>
+    </dl> <!-- As tags <dl>, <dt> e <dd> são tags de listas de definição -->
+
+        <hr>
+        <p> Passe o mouse sobre o texto abaixo</p>
+        <div id="d1" class="ddd">Texto 1</div>
+        <div id="d2" class="ddd">Texto 2</div>
+        <div id="d3" class="ddd">Texto 3</div>
+        <hr>
+        <div>
+            Passe o mouse aqui
+            <p>Surpresaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!</p>
+        </div>
 
     <hr>
     <h2>Mais</h2>
     <p>Se quiser saber mais sobre sistemas de itens, poderes ou relacionamentos de personagens de rpg pode pesquisar mais no <a href="https://google.com" target="_blank" rel="external">Google</a></p> <!-- A tag <a> serve para criar um link, ou seja, uma ligação interna ou externa. -->
 
-    <p>Se quiser acessar o making of do rpg é só clicar <a href="pag002.html" target="_self" rel="next">Aqui</a>.</p>
+    <p>Se quiser acessar o teste de mídia é só clicar <a href="pag002.html" target="_self" rel="next">Aqui</a>.</p>
     <p>Acesse meu GitHub por esta página <a href="pag003.html" target="_self" rel="next">Aqui</a>.</p>
     <p>Como aprender programação javascript <a href="Livro/JavaScript O Guia Definitivo_v2.zip" download="meulivro.pdf" type="application/pdf">Aqui</a>.</p>
 
