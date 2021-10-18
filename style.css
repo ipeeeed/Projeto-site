@@ -2,15 +2,25 @@
 
     /* Este modo é meramente para estudos, ele não aparece nos códigos */
 
+    /*
+    Medidas absolutas:
+    cm, mm, in (polegadas), px, pt, pc.
+    Medidas relativas:
+    em, ex, rem, vw, vh, %.
+
+    Na <font-family> é recomendado usar px ou em.
+    */
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     height: auto;
 }
 
 body {
 
-    /* background-color: mistyrose; */
     background-image: linear-gradient(to bottom, white, mistyrose, #eca8a0);
+    font-size: 15px;
+  
     /* background-attachment: fixed; */
 }
 
