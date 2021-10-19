@@ -7,12 +7,49 @@
     font-style: normal;
 }
 
+:root {
+    --cor1: #2CD4F2;
+    --cor2: #29C9E6;
+    --cor3: #25B3CC;
+    --cor4: #1E91A6;
+    --cor5: #125966;
+    --cor6: #003B45;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-funhouse: 'funhouse';
+}
+
 * {
-    height: auto;
-    font-family: 'funhouse';
+    font-family: var(--fonte-funhouse);
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-color: black;
-    color: green;
+    background-color: var(--cor5);
+}
+
+header {
+    background-color: var(--cor4);
+}
+
+header > h1 {
+    color: var(--cor1);
+}
+
+header > p {
+    color: var(--cor1);
+}
+
+nav  {
+    background-color: var(--cor5);
+}
+
+main {
+    background-color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor2);
 }
