@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'funhouse';
+    src: url('fonts/Howie_s_Funhouse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor1: #2CD4F2;
+    --cor2: #29C9E6;
+    --cor3: #25B3CC;
+    --cor4: #1E91A6;
+    --cor5: #125966;
+    --cor6: #003B45;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-funhouse: 'funhouse';
+}
+
+* {
+    font-family: var(--fonte-funhouse);
+}
