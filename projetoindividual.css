@@ -22,3 +22,33 @@
 * {
     font-family: var(--fonte-funhouse);
 }
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+    padding: 10px;
+}
+
+nav > a {
+    padding: 10px;
+}
+
+nav > a:hover {
+
+}
+
+h1 {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    text-align: center;
+}
