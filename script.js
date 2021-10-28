@@ -1,3 +1,4 @@
+/*
 // let produz uma variavel, pode ser redefinida.
 let idade = 23;
 let altura = 175;
@@ -31,7 +32,7 @@ let família = ['Natália', 12, 166, 47]
 let amigos = ['Gabriel', 'Kevelin', 'Lucas', 'Karem', 'Lidânia']
 
 console.log(pessoa, família, amigos[3]);
-
+*/
 
 
 
@@ -41,7 +42,19 @@ console.log(pessoa, família, amigos[3]);
 
 
 //window.confirm('Alô !!!')
+/*
+var nome = window.prompt('Digite seu nome!')
+window.alert('Seja bem-vindo(a) ' + nome + '!')
+*/
 
-//window.prompt('')
+/*
+var n1 = Number(window.prompt('Digite um número: '))
+var n2 = Number(window.prompt('Digite outro número: '))
+var s = n1 + n2
+window.alert(`A soma entre o número ${n1} e o número ${n2} é ${s}`)
+*/
 
-//window.alert('')
+/*
+var nome = window.prompt('Digite seu Nome!')
+document.write(`Olá ${nome}, seu nome tem ${nome.length} letras.`)
+*/
