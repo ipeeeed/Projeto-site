@@ -38,8 +38,10 @@ console.log(pessoa, família, amigos[3]);
 
 
 
-//window.alert("Alô, isso é apenas um teste de alerta do site, onde tento criar uma tela de alerta para que, quem entrar possa ler o alerta de introdução da página, assim perdendo um temp absurdamente gigante da vida. Obrigad por ler!")
 
-//window.confirm("Alô !!!! este é diferenciado, você precisa confirmar que leu ou cencelar que leu, eu acho.")
 
-//window.prompt("Sério kkkkk esse é o último, só vai aí. Coloca seu nome, apelido ou qualquer coisa.")
+//window.confirm('Alô !!!')
+
+//window.prompt('')
+
+//window.alert('')
