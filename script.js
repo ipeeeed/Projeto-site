@@ -34,13 +34,6 @@ let amigos = ['Gabriel', 'Kevelin', 'Lucas', 'Karem', 'Lidânia']
 console.log(pessoa, família, amigos[3]);
 */
 
-
-
-
-
-
-
-
 //window.confirm('Alô !!!')
 /*
 var nome = window.prompt('Digite seu nome!')
@@ -54,7 +47,11 @@ var s = n1 + n2
 window.alert(`A soma entre o número ${n1} e o número ${n2} é ${s}`)
 */
 
-/*
-var nome = window.prompt('Digite seu Nome!')
-document.write(`Olá ${nome}, seu nome tem ${nome.length} letras.`)
+
+/* var nome = window.prompt('Digite seu Nome!')
+document.write(`Olá ${nome}, seu nome com ${nome.length} letras faz você ficar mais bonito(a) por cinco segundos.`)
 */
+
+var p1 = window.document.querySelector('p');
+window.document.write('Escreva algo diferente' + p1.innerText);
+p1.style.background = 'green'
