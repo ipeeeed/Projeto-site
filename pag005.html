@@ -24,12 +24,12 @@
         nav > a {
             font-size: larger;
             border-radius: 3px;
-            margin: 50px;
+            margin: 3px;
             padding: 3px 40px 3px 40px;
             border-width: 4px;
             border-style: solid;
             border-color: snow;
-            transition-duration: 1s;
+            transition-duration: 0.5s;
         }
         nav > a:hover {
             border-style: inset;
@@ -50,6 +50,11 @@
         a:active {
             color: rgb(167, 26, 26);
         }
+        @media screen and (max-width: 768px) {
+            nav > a {
+                width: 100%;
+            }
+        }
         hr {
             margin: 15px 0px;
             border-width: 2px;
@@ -57,7 +62,7 @@
         .ddd {
             display: inline-block;
             background-color: rgb(100, 92, 91);
-            border: 1px solid black;
+            border: 10px solid black;
             text-align: center;
             height: 200px;
             width: 200px;
@@ -91,7 +96,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, accusantium facere. Cupiditate, voluptatibus temporibus dolorum asperiores doloremque, debitis possimus nostrum ipsum optio rem labore deleniti quidem dicta explicabo quae officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt provident maxime, eveniet libero distinctio quidem eius amet, vel consequuntur neque deleniti tempora rerum numquam iste doloribus optio blanditiis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eos consectetur repellat quae, aut amet! Eligendi, veniam fuga quaerat id rerum adipisci nesciunt nemo eum saepe atque repudiandae in perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laboriosam odit tempore nulla dolore necessitatibus et voluptas? Corporis architecto aliquid doloremque facere harum hic eum assumenda maiores esse, obcaecati enim!</p>
             </article>
             <article>
-                <aside>
+                <aside id="blocos">
                     <div class="ddd">Texto 1</div>
                     <div class="ddd">Texto 2</div>
                     <div class="ddd">Texto 3</div>
