@@ -6,8 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site?</title>
     <link rel="shortcut icon" href="imagens/favicon.ico">
-    <link rel="stylesheet" href="projetoindividual.css">
-    <script src="script.js"></script>
+    <style>
+        @charset "UTF-8";
+
+@font-face {
+    font-family: 'funhouse';
+    src: url('fonts/Howie_s_Funhouse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor1: #2CD4F2;
+    --cor2: #29C9E6;
+    --cor3: #25B3CC;
+    --cor4: #1E91A6;
+    --cor5: #125966;
+    --cor6: #003B45;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-funhouse: 'funhouse';
+}
+
+* {
+    font-family: var(--fonte-funhouse);
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+    margin: 10px;
+    padding: 10px;
+}
+
+nav > a {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    text-align: center;
+}
+    </style>
 </head>
 <body>
     <haeder>
@@ -44,5 +96,65 @@
     <footer>
         Pé?
     </footer>
+
+    <script>
+        /*
+// let produz uma variavel, pode ser redefinida.
+let idade = 23;
+let altura = 175;
+let peso = 60;
+let nome = 'Pedro';
+altura = 179;
+peso = 59
+
+// const produz uma variavel, não pode ser redefinida.
+const cor = 'branco'; 
+const sexo = 'masculino';
+
+// var produz uma variavel
+var namorada = undefined;
+var programador = true;
+var emprego = null;
+
+console.log(idade, altura, peso, nome, cor, sexo, namorada, programador, emprego);
+
+// objects são variaveis de um mesmo objeto juntas
+let pessoa = {
+    nome: 'Roberto',
+    idade: 38,
+    altura: 190,
+    peso: 82,
+    emprego: undefined
+}
+
+// arrays
+let família = ['Natália', 12, 166, 47]
+let amigos = ['Gabriel', 'Kevelin', 'Lucas', 'Karem', 'Lidânia']
+
+console.log(pessoa, família, amigos[3]);
+*/
+
+//window.confirm('Alô !!!')
+/*
+var nome = window.prompt('Digite seu nome!')
+window.alert('Seja bem-vindo(a) ' + nome + '!')
+*/
+
+/*
+var n1 = Number(window.prompt('Digite um número: '))
+var n2 = Number(window.prompt('Digite outro número: '))
+var s = n1 + n2
+window.alert(`A soma entre o número ${n1} e o número ${n2} é ${s}`)
+*/
+
+
+/* var nome = window.prompt('Digite seu Nome!')
+document.write(`Olá ${nome}, seu nome com ${nome.length} letras faz você ficar mais bonito(a) por cinco segundos.`)
+*/
+
+var p1 = window.document.querySelector('p');
+window.document.write('Escreva algo diferente' + p1.innerText);
+p1.style.background = 'green'
+    </script>
 </body>
 </html>
