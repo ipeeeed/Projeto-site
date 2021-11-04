@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien?</title>
+    <style>
+        @charset "UTF-8";
+        * {
+            margin: 1px;
+            padding: 0px;
+        }
+        body {
+            background-color: black;
+            color: snow;
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav > a {
+            font-size: larger;
+            border-radius: 3px;
+            margin: 50px;
+            padding: 3px 40px 3px 40px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: snow;
+            transition-duration: 1s;
+        }
+        nav > a:hover {
+            border-style: inset;
+            border-color: white;
+            background-color: rgb(235, 235, 235);
+        }
+        nav > a:active {
+            background-color: rgb(58, 2, 2);
+            transition-duration: 0s;
+        }
+        a {
+            color: snow;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(38, 38, 38);
+        }
+        a:active {
+            color: rgb(167, 26, 26);
+        }
+        hr {
+            margin: 15px 0px;
+            border-width: 2px;
+        }
+        .ddd {
+            display: inline-block;
+            background-color: rgb(100, 92, 91);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        .ddd:hover {
+            background-color: rgb(60, 30, 30);
+        }
+        .ddd:active {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <h1>Wiki de um Programador</h1>
+        <hr>
+        <nav>
+            <a href="#"><abbr title="Não funcional por enquanto">Menu</abbr></a>
+            <a href="https://discord.gg/TndUeNPpFv" target="_blank">Contato</a>
+            <a href="https://instagram.com/ipeeeed/?hl=pt-br" target="_blank">Galeria</a>
+            <a href="https://github.com/ipeeeed" target="_blank">Estudos</a>
+            <a href="https://google.com">Sair</a>
+        </nav>
+    </Header>
+    <hr>
+    <main>
+        <section>
+            <h2>Iped</h2>
+            <article>
+                <h3>Jornada de um jovem alien</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, accusantium facere. Cupiditate, voluptatibus temporibus dolorum asperiores doloremque, debitis possimus nostrum ipsum optio rem labore deleniti quidem dicta explicabo quae officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt provident maxime, eveniet libero distinctio quidem eius amet, vel consequuntur neque deleniti tempora rerum numquam iste doloribus optio blanditiis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eos consectetur repellat quae, aut amet! Eligendi, veniam fuga quaerat id rerum adipisci nesciunt nemo eum saepe atque repudiandae in perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laboriosam odit tempore nulla dolore necessitatibus et voluptas? Corporis architecto aliquid doloremque facere harum hic eum assumenda maiores esse, obcaecati enim!</p>
+            </article>
+            <article>
+                <aside>
+                    <div class="ddd">Texto 1</div>
+                    <div class="ddd">Texto 2</div>
+                    <div class="ddd">Texto 3</div>
+                </aside>
+            </article>
+        </section>
+        <aside>
+
+        </aside>
+    </main>
+    <hr>
+    <footer>
+        <marquee behavior="" direction="left">Teste de um texto móvel para a esquerda, é presciso colocar um texto grande para que o teste seja realizado com sucesso, por isso, estou escrevendo mais coisas, até não restar mais espaço algum que encaixe na tela, mesmo que seja uma tela grande. Enquanto isso, relaxe e curta esta maravilhosa e explendida página.</marquee>
+    </footer>
+
+    <script>
+//        var nome = window.prompt("Digite seu nome!")
+        document.write(`Agradecimentos especiais a ${nome} por sua visita :)`)
+    </script>
+</body>
+</html>
