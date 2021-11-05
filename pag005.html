@@ -59,15 +59,58 @@
             display: inline-block;
             background-color: rgb(100, 92, 91);
             border: 10px solid black;
+            border-radius: 15px;
             text-align: center;
+            padding: 10px;
+            margin: 0px;
             height: 200px;
             width: 200px;
         }
         .ddd:hover {
+            color: tomato;
             background-color: rgb(60, 30, 30);
         }
         .ddd:active {
+            color: orange;
             background-color: darkred;
+            padding: 0px;
+            margin: 10px 10px 10px 10px;
+            height: 180px;
+            width: 180px;
+        }
+        #d1 {
+            color: mediumblue;
+        }
+        #d1:hover {
+            color: mediumturquoise;
+        }
+        #d1:active {
+            color: royalblue;
+        }
+        #d2 {
+            color: rgb(58, 10, 102);
+        }
+        #d2:hover {
+            color:violet;
+        }
+        #d2:active {
+            color: rebeccapurple;
+        }
+        #d3 {
+            color: rgb(12, 55, 17);
+        }
+        #d3:hover {
+            color: palegreen;
+        }
+        #d3:active {
+            color: olivedrab;
+        }
+        marquee {
+            padding: 10px;
+            color: yellow
+        }
+        marquee:hover {
+            color: orangered;
         }
     </style>
 </head>
@@ -89,13 +132,19 @@
             <h2>Iped</h2>
             <article>
                 <h3>Jornada de um jovem alien</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, accusantium facere. Cupiditate, voluptatibus temporibus dolorum asperiores doloremque, debitis possimus nostrum ipsum optio rem labore deleniti quidem dicta explicabo quae officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt provident maxime, eveniet libero distinctio quidem eius amet, vel consequuntur neque deleniti tempora rerum numquam iste doloribus optio blanditiis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eos consectetur repellat quae, aut amet! Eligendi, veniam fuga quaerat id rerum adipisci nesciunt nemo eum saepe atque repudiandae in perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laboriosam odit tempore nulla dolore necessitatibus et voluptas? Corporis architecto aliquid doloremque facere harum hic eum assumenda maiores esse, obcaecati enim!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, accusantium facere. Cupiditate, voluptatibus temporibus dolorum asperiores doloremque, debitis possimus nostrum ipsum optio rem labore deleniti quidem dicta explicabo quae officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt provident maxime, eveniet libero distinctio quidem eius amet, vel consequuntur neque deleniti tempora rerum numquam iste doloribus optio blanditiis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eos consectetur repellat quae, aut amet! Eligendi, veniam fuga quaerat id rerum adipisci nesciunt nemo eum saepe atque repudiandae in perspiciatis.</p>
             </article>
             <article>
-                <aside id="blocos">
-                    <div class="ddd">Texto 1</div>
-                    <div class="ddd">Texto 2</div>
-                    <div class="ddd">Texto 3</div>
+                <aside>
+                    <a href="https://www.cursoemvideo.com/cursos/" target="_blank">
+                        <div id="d1" class="ddd">Guanabara</div>
+                    </a>
+                    <a href="https://app.rocketseat.com.br/dashboard" target="_blank">
+                        <div id="d2" class="ddd">Rocketseat</div>
+                    </a>
+                    <a href="https://www.alura.com.br/" target="_blank">
+                        <div id="d3" class="ddd">Alura</div>
+                    </a>
                 </aside>
             </article>
         </section>
