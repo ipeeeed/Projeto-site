@@ -22,6 +22,7 @@
         nav {
             text-align: center;
         }
+
         nav > a {
             font-size: larger;
             border-radius: 3px;
@@ -51,6 +52,13 @@
         a:active {
             color: rgb(167, 26, 26);
         }
+        @media screen and (max-width: 770px) {
+            nav > a {
+                padding: 3px;
+                display: inline-block;
+            }
+        }
+                
         hr {
             margin: 15px 0px;
             border-width: 2px;
