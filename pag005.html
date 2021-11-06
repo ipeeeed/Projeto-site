@@ -19,10 +19,12 @@
         h1 {
             text-align: center;
         }
+        h2 {
+            text-align: center;
+        }
         nav {
             text-align: center;
         }
-
         nav > a {
             font-size: larger;
             border-radius: 3px;
@@ -62,14 +64,26 @@
             margin: 15px 0px;
             border-width: 2px;
         }
+        #texto1 {
+            background-color: rgba(51, 9, 9, 0.672);
+            border-radius: 15px;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        #texto1:hover {
+            background-color: rgb(84, 13, 13);
+        }
         .ddd {
             display: inline-block;
             background-color: rgb(100, 92, 91);
-            border: 10px solid black;
+            border: 10px solid rgba(0, 0, 0, 0);
             border-radius: 15px;
             text-align: center;
             padding: 10px;
-            margin: 0px;
+            margin: 1px;
             height: 200px;
             width: 200px;
         }
@@ -112,6 +126,17 @@
         #d3:active {
             color: olivedrab;
         }
+        #blocos {
+            /*Tentar deixar respondivo*/
+        }
+        @media screen and (max-width: 700px) {
+            #blocos {
+                /*ou alinhado o maximo possivel*/
+            }
+            .ddd {
+                display: block;
+            }
+        }
         marquee {
             padding: 10px;
             margin: 0px;
@@ -142,12 +167,12 @@
     <main>
         <section>
             <h2>Iped</h2>
-            <article>
+            <article id="texto1">
                 <h3>Jornada de um jovem alien</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, accusantium facere. Cupiditate, voluptatibus temporibus dolorum asperiores doloremque, debitis possimus nostrum ipsum optio rem labore deleniti quidem dicta explicabo quae officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt provident maxime, eveniet libero distinctio quidem eius amet, vel consequuntur neque deleniti tempora rerum numquam iste doloribus optio blanditiis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eos consectetur repellat quae, aut amet! Eligendi, veniam fuga quaerat id rerum adipisci nesciunt nemo eum saepe atque repudiandae in perspiciatis.</p>
             </article>
             <article>
-                <aside>
+                <aside id="blocos">
                     <a href="https://www.cursoemvideo.com/cursos/" target="_blank">
                         <div id="d1" class="ddd">Guanabara</div>
                     </a>
@@ -162,7 +187,7 @@
         </section>
         <aside>
             <h2>Testado</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cum repellendus impedit quas, voluptatum, est ad, porro veniam amet consequuntur nam. Quas temporibus ex doloremque quos, possimus autem nostrum aspernatur!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eum distinctio labore velit nam, recusandae provident! Dolorem nobis quas ipsam itaque dolor possimus, natus beatae atque officiis magnam aspernatur nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tenetur, reiciendis veniam magnam dolores illum dolorem voluptatibus sequi amet nihil velit fugit quae perspiciatis obcaecati saepe, rem, praesentium temporibus sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit debitis possimus, maxime incidunt quis culpa adipisci dolor mollitia, provident hic est nihil veritatis praesentium cum tenetur. Non obcaecati dicta quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit, mollitia, tempora vitae nemo alias sequi repellendus nesciunt quidem, veritatis modi animi reiciendis vero id minima? Non unde voluptate dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo mollitia amet minima fugit sit quo suscipit officiis architecto eligendi, perspiciatis reiciendis corporis natus, nisi velit repellendus illo, quae facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime animi asperiores, explicabo magni sed necessitatibus, laborum velit possimus voluptatem, aspernatur iure hic sapiente. Fuga laudantium facilis atque soluta commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cum repellendus impedit quas, voluptatum, est ad, porro veniam amet consequuntur nam. Quas temporibus ex doloremque quos, possimus autem nostrum aspernatur!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eum distinctio labore velit nam, recusandae provident! Dolorem nobis quas ipsam itaque dolor possimus, natus beatae atque officiis magnam aspernatur nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tenetur, reiciendis veniam magnam dolores illum dolorem voluptatibus sequi amet nihil velit fugit quae perspiciatis obcaecati saepe, rem, praesentium temporibus sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit debitis possimus, maxime incidunt quis culpa adipisci dolor mollitia, provident hic est nihil veritatis praesentium cum tenetur. Non obcaecati dicta quaerat?Fuga laudantium facilis atque soluta commodi?</p>
         </aside>
     </main>
     <hr>
