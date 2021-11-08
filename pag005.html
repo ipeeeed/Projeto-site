@@ -66,7 +66,7 @@
         }
         #texto1 {
             background-color: rgba(51, 9, 9, 0.672);
-            border-radius: 15px;
+            border-radius: 10px;
             width: 600px;
             padding: 10px;
             margin: auto;
@@ -75,6 +75,21 @@
         }
         #texto1:hover {
             background-color: rgb(84, 13, 13);
+        }
+        @media screen and (max-width: 620px) {
+            #texto1 {
+                width: 500px;
+            }
+        }
+        @media screen and (max-width: 520px) {
+            #texto1 {
+                width: 400px;
+            }
+        }
+        @media screen and (max-width: 420px) {
+            #texto1 {
+                width: 300px;
+            }
         }
         .ddd {
             display: inline-block;
@@ -127,14 +142,41 @@
             color: olivedrab;
         }
         #blocos {
-            /*Tentar deixar respondivo*/
+            margin-left: 27%;
         }
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 880px) {
             #blocos {
-                /*ou alinhado o maximo possivel*/
+                margin-left: 10%;
             }
+        }
+        @media screen and (max-width: 720px) {
+            #blocos {
+                margin-left: 1%;
+            }
+        }
+        @media screen and (max-width: 660px) {
             .ddd {
+                width: 600px;
+                height: 100px;
                 display: block;
+            }
+        }
+        @media screen and (max-width: 620px) {
+            .ddd {
+                width: 500px;
+                height: 250px;
+            }
+        }
+        @media screen and (max-width: 520px) {
+            .ddd {
+                width: 400px;
+                height: 225px;
+            }
+        }
+        @media screen and (max-width: 420px) {
+            .ddd {
+                width: 300px;
+                height: 200px;
             }
         }
         marquee {
